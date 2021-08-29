@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/contacts-list.css">
+    </head>
+    <body>
+        <h1>Contacts</h1>
+        <hr />
+        <input type="search" placeholder="Search by name" />
+        <table id="table-contacts">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>City</td>
+                    <td>Primary Phone</td>
+                    <td>Primary Email</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        
+        
+        <!-- Including the old way - bad -->
+        <!-- <script src="js/Contact.js"></script>
+        <script src="js/data/contacts.js"></script> -->
+
+        <!-- including as modules - good - no global variables -->
+        <script src="js/contact-list.js" type="module"></script>
+    </body>
+</html>
