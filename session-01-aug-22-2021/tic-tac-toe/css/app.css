@@ -1,0 +1,23 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    /* float: left; */
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: #05668d;
+}
+
+.cross,
+.circle {
+    text-align: center;
+    font-size: 160px;
+    color: white;
+}

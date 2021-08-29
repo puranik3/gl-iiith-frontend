@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.list-unstyled {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-row li {
+    /* flex-grow: 1; */
+}
+
+.list-row li a {
+    display: inline-block;
+    color: white;
+    padding: 0.75em;
+    text-decoration: none;
+}
+
+.footer-section {
+    background-color: lightgray;
+    padding: 2em 0;
+}
