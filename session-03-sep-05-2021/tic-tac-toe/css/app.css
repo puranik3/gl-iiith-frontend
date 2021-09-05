@@ -1,0 +1,30 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.next-player-message {
+    padding: 0.75em;
+    border: 1px solid lightgray;
+    margin: 0.25em 0;
+    font-size: 1.25em;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    /* float: left; */
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: #05668d;
+}
+
+.cross,
+.circle {
+    text-align: center;
+    font-size: 160px;
+    color: white;
+}

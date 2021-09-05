@@ -9,3 +9,6 @@ npm i -g http-server
 http-server
 ```
 Access the server on http://localhost:8080
+
+## Server
+Please check - https://workshops-server.herokuapp.com/

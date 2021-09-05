@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #05668d;
+    color: ivory;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* tablet ( if( width >= 640px ) { } */ 
+@media ( min-width: 640px ) {
+    body {
+        width: 90%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .form-group {
+        flex-direction: row;
+    }
+
+    .form-group > label {
+        flex-basis: 25%;
+    }
+    
+    .form-group > input,
+    .form-group > textarea,
+    .form-group > select {
+        flex-basis: 75%;
+        padding: 0.5em 1em;
+        border: 0;
+    }
+
+    .form-group.offset-label::before {
+        content: ' ';
+        flex-basis: 25%;
+    }
+}
