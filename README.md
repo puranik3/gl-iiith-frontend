@@ -12,3 +12,9 @@ Access the server on http://localhost:8080
 
 ## Server
 Please check - https://workshops-server.herokuapp.com/
+
+## Guidelines
+- [CSS and HTML also exist](https://github.com/airbnb/javascript)
+- [Design Patterns in JS](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+- VS Code ESLint extension by Dirk Baeumer
+- Component-based architecture
